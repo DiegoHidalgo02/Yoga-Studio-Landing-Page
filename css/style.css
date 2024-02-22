@@ -30,11 +30,45 @@ main{
 .info{
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
     color: #2E3B41;
     row-gap: 42px;
 }
 
+.info h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.info div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.info div a{
+    font-size: small;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 50%;
+    padding: 10px 20px;
+}
+
+.info div{
+    width: 100%;
+}
+
+.info div a:first-child{
+    text-decoration: none;
+    background-color: #F88CAC;
+    color: #FFFFFF;
+}
+
+.info div a:last-child{
+    text-decoration: none;
+    background-color: #E9F0FD;
+}
 
 
 
